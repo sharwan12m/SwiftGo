@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swiftgo - Ride Booking</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+</head>
+<body>
+
+  <!-- Nav Bar -->
+  <header>
+    <div class="logo">SwiftGo</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="login.html">Login</a></li>
+        <!-- <li><a href="track.html">Track</a></li> -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div>
+    <h1>Lets Move On SwiftGo!</h1>
+    <input type="text" placeholder="Enter Pickup location" />
+    <br>
+    <input type="text" placeholder="Enter Drop location" />
+    <br>
+    <button onclick="location.href='signup.html'">Book Ride</button>
+  </div>
+  </section>
+
+  <!-- Service Section -->
+  <section class="services-section">
+    <h1>Our Services</h1>
+    <div class="services-container">
+      <div class="service-box">
+        <h2>Bike Ride</h2>
+        <img src="bike.jpeg" alt="">
+        <p>Quick and affordable bike rides for short distances.</p>
+        <button onclick="location.href='ride-booking.html'">Book a Bike Ride</button>
+      </div>
+
+      <div class="service-box">
+        <h2>Auto Ride</h2>
+        <img src="Auto.jpeg" alt="">
+        <p>Comfortable and spacious auto rides for your longer trips.</p>
+        <button onclick="location.href='ride-booking.html'">Book an Auto Ride</button>
+      </div>
+
+      <div class="service-box">
+        <h2>Driver Services</h2>
+        <img src="Partner.jpeg" alt="">
+        <p>Become a driver and start earning by driving with Swiftgo.</p>
+        <button onclick="location.href='driver-signup.html'">Become a Driver</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefit Section -->
+  <section class="benefit-section" id="benefit">
+    <div class="benefit-content">
+      <div class="benefit-text">
+        <h2>Why Choose SwiftGo?</h2>
+        <ul>
+          <li>Schedule Your Ride in Advance up to 90 days</li>
+          <li>Extra Time for Every Pickup comfortably</li> 
+          <li>Free Cancellations up to 60 minutes before your rides</li> 
+          <li>Fast & budget-friendly city travel</li>
+        </ul>
+        <button onclick="location.href='signup.html'">Book Ride</button>
+      </div>
+      <div class="benefit-img">
+        <img src="Benefits.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Rider Section -->
+  <section class="rider-section" id="rider">
+    <div class="rider-content">
+      <div class="rider-text">
+      <h2>Become a SwiftGo Rider</h2>
+      <ul>
+        <li>Flexible working Hours</li>
+        <li>Daily Payout</li>
+        <li>Attractive incentives</li>
+        <li>Simple onboardig process</li>
+      </ul>
+      <button onclick="location.href='driver-signup.html'">Start Earning</button>
+      </div>
+      <div class="rider-img">
+        <img src="Swiftgo partner.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-box">
+      <div class="footer-logo">SwiftGo</div>
+
+      <ul class="footer-nav">
+        <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="#"><i class="fas fa-concierge-bell"></i>Services</a></li>
+        <li><a href="#"><i class="fas fa-user-plus"></i>Sign Up</a></li>
+        <li><a href="#"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+      </ul>
+
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a> 
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <p>&copy; 2025 Swiftgo | All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
